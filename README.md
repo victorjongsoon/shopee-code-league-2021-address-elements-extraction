@@ -4,11 +4,10 @@ This is the source code for 2nd competition (data science) of the Shopee Code Le
 # Dataset
 The dataset is downlaoded from Kaggle (https://www.kaggle.com/c/scl-2021-ds/data).
 
-# Task (extracted from tasksheet pdf)
-In this competition, you’ll work on addresses collected by us to build a model to correctly extract
+# Task 
+In this competition, we will work on addresses collected by Shopee to build a model to correctly extract
 Point of Interest (POI) Names and Street Names from unformatted Indonesia addresses.
-Participants are expected to build their own model for this competition, submissions by teams
-which directly call any third party APIs on the test set will not be taken into consideration.
+Participants are expected to build their own model for this competition.
 
 # Approach
 Our team's approach in this competition is to train the dataset (train.csv) using Named Entity Recognition (NER) using Spacy. We convert the dataset into json format so that it is "readable" for the model for training. After we have trained the model, we test the model accuracy with the testing file (test.csv).
@@ -16,6 +15,10 @@ Our team's approach in this competition is to train the dataset (train.csv) usin
 # Accuracy: 61.222% - 90th/1034 in Private Leaderboard
 ![Image of Private Leaderboard](https://github.com/victorjongsoon/shopee-code-league-2021-address-elements-extraction/blob/main/images/private-leaderboard.PNG)
 ![Image of Participating Teams in Private Leaderboard](https://github.com/victorjongsoon/shopee-code-league-2021-address-elements-extraction/blob/main/images/private-leaderboard-total.PNG)
+
+# What can be improved in this competition?
+1. Clean the training dataset before using it to train the model
+2. Tune the model parameters (e.g. batches, drop, optimizer etc.)
 
 # Skillset required for the project (Machine Learning)
 * Python (Numpy, Pandas etc.)
