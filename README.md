@@ -16,3 +16,7 @@ Our team's approach in this competition is to train the dataset (train.csv) usin
 # Accuracy: 61.222% - 90th in Private Leaderboard
 ![Image of Private Leaderboard](https://github.com/victorjongsoon/shopee-code-league-2021-address-elements-extraction/blob/main/images/private-leaderboard.PNG)
 ![Image of Participating Teams in Private Leaderboard](https://github.com/victorjongsoon/shopee-code-league-2021-address-elements-extraction/blob/main/images/private-leaderboard-total.PNG)
+
+# Skillset required for the project (Machine Learning)
+* Python (Numpy, Pandas etc.)
+* NER - Spacy
