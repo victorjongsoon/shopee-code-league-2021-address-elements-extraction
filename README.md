@@ -4,7 +4,7 @@ This is the source code for 2nd competition (data science) of the Shopee Code Le
 # Dataset
 The dataset is downlaoded from Kaggle (https://www.kaggle.com/c/scl-2021-ds/data).
 
-# Task
+# Task (extracted from tasksheet pdf)
 In this competition, you’ll work on addresses collected by us to build a model to correctly extract
 Point of Interest (POI) Names and Street Names from unformatted Indonesia addresses.
 Participants are expected to build their own model for this competition, submissions by teams
